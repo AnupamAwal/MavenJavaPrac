@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ultimateqa.ButtonClickTest" duration-ms="19826" started-at="2018-06-03T18:55:50Z" finished-at="2018-06-03T18:56:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="19826" started-at="2018-06-03T18:55:50Z" finished-at="2018-06-03T18:56:09Z">
+      <class name="ultimateqa.ButtonClickTest">
+        <test-method status="PASS" signature="clickOnButton1()[pri:0, instance:ultimateqa.ButtonClickTest@2acf57e3]" name="clickOnButton1" duration-ms="16758" started-at="2018-06-04T00:25:50Z" finished-at="2018-06-04T00:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnButton1 -->
+        <test-method status="PASS" signature="clickOnButton2()[pri:0, instance:ultimateqa.ButtonClickTest@2acf57e3]" name="clickOnButton2" duration-ms="3033" started-at="2018-06-04T00:26:06Z" depends-on-methods="ultimateqa.ButtonClickTest.clickOnButton1" finished-at="2018-06-04T00:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnButton2 -->
+      </class> <!-- ultimateqa.ButtonClickTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- ultimateqa.ButtonClickTest -->
+</testng-results>
